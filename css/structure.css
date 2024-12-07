@@ -1,0 +1,51 @@
+@media print {
+	/* img {display: none;} */
+	body {margin: 0;}
+}
+
+#titlePage {
+    position: absolute;
+	height: 100%;
+	page-break-after: always;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#titlePageBlock {
+    height: 100%;
+	page-break-after: always;
+}
+
+#reportHeader {
+	display: flex;
+	flex-direction: column;
+	padding: 0 3cm 0 3cm;
+}
+
+#content {
+	display: block;
+	margin-left: 2.5cm;
+	margin-right: 2.5cm;
+}
+
+#content img {
+	width: 80%;
+	padding-top: 1em;
+	margin: 0 10%;
+}
+
+thead {
+	height: 4.5em;
+}
+
+#page-header-space {
+	height: 5em;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: start;	
+	position: fixed;
+}
+
+#page-footer-space {height: 2cm;}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Title</title> <!--Change-->
+	<meta name="author" content="Author"> <!--Change-->
+	<link rel="stylesheet" href="../css/fonts.css">
+	<link rel="stylesheet" href="../css/structure.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/specific.css">
+	<link rel="stylesheet" href="../css/highlight.css">
+	<!-- Color theme del código -->
+	<script src="../js/highlight.min.js"></script>
+	<script async src="../js/tex-mml-chtml.js"></script>
+	<script>hljs.highlightAll();</script>
+</head>
+<body>
+	<!-- Title page -->
+	<div id="titlePage">
+		<div id="reportHeader">
+			<!-- <img src="../img/placeholder.svg" alt="">
+			<h1>Big Title</h1>
+			<h2>Sub Title</h2>
+			<div id="author">
+				<span>by</span>
+				<span><b>Me</b></span>
+			</div> -->
+		</div>
+	</div>
+	<div id="titlePageBlock"></div>
+
+	<table>
+		<thead>
+			<tr>
+				<td>
+					<div id="page-header-space"> <!-- Header, common in all pages -->
+						<!-- <img src="../img/placeholder.svg" alt=""> -->
+					<div>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="content"> <!-- Here goes HTML, make sure <pre> blocks have no indentation-->
+
+					<!-- <h2>Content</h2>
+					<p>Demo content</p> -->
+
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>
+					<div id="page-footer-space"> <!-- Footer, common in all pages -->
+						<!-- <img src="../img/placeholder.svg" alt=""> -->
+					</div>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	<div id="first-page-patch"></div> <!-- Fix so that the header and footer do not appear in the title page -->
+</body>
