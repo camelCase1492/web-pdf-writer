@@ -1,13 +1,21 @@
-Tired of Word or equivalent software for writing documents? Use vanilla HTML/CSS/JS instead!
+Tired of Word or equivalent software for writing documents? Use vanilla HTML/CSS/JS instead! This is just a web directory that serves as a template with predefined styles to quickly get started
 
-![Sample 1](./docs/sample1.png) ![Sample 2](./docs/sample2.png) ![Sample 3](./docs/sample3.png) ![Sample 4](./docs/sample4.png)
+## Samples
+
+![](./docs/sample1.png)
+![](./docs/sample2.png)
+![](./docs/sample3.png)
+![](./docs/sample4.png)
 
 ## Features
 
 - Customize the appearence of the document as you please, this is just a template to get you started
 - Support for highlight.js and MathJax (LaTeX) by default
 - Add new js libraries to fit your needs (such as D3.js to create charts, or three.js to insert 3D graphics)
-- Create documents using only a text editor and web browser
+- Create any PDF you can imagine using only a text editor and web browser (reports, slides, invoices, certificates...)
+- Useful for creating bulk documents with custom data per file
+- If your text editor has live reloading, such as VSCode with 'Live Server' you can watch your changes instantly
+- Support for title page, constant header and footer across pages
 
 ## How to use
 
@@ -18,3 +26,4 @@ Tired of Word or equivalent software for writing documents? Use vanilla HTML/CSS
 ## Help needed
 
 - Minimalistic and flexible approach for placing page numbers in the footer
+- Better README.md
