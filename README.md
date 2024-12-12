@@ -10,8 +10,8 @@ Tired of Word or equivalent software for writing documents? Use vanilla HTML/CSS
 ## Features
 
 - Customize the appearence of the document as you please, this is just a template to get you started
-- Support for highlight.js and MathJax (LaTeX) by default
-- Add new js libraries to fit your needs (such as D3.js to create charts, or three.js to insert 3D graphics)
+- Support for highlight.js, MathJax (LaTeX) and D3.js by default
+- Add new js libraries to fit your needs (such as three.js to insert 3D graphics)
 - Create any PDF you can imagine using only a text editor and web browser (reports, slides, invoices, certificates...)
 - Useful for creating bulk documents with custom data per file
 - If your text editor has live reloading, such as VSCode with 'Live Server' you can watch your changes instantly
