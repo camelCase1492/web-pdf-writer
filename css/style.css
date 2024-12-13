@@ -68,17 +68,22 @@ pre {
 }
 
 code {
-	font-size: 18.75px;
+	font-size: 16px;
 	font-family: monospace;
+	/**/
+	background-color: #FF684A40;
+	color: #FF684A;
+	border-radius: 6px;
+	padding: 1px 4px 0 4px;
 }
 
 pre > code {
-	font-size: 16px;
+	font-size: 12px;
 	border-radius: 1em;
 }
 
 pre > code * {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: monospace;
 }
 
